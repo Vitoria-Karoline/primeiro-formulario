@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Proposto</title>
+</head>
+
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form action="pagina.html" method="post">
+
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Exemplo: vitoria@gmail.com">
+        </div>
+
+        <div>
+            <p>Sexo:</p>
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="sexo" value="feminino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+        </div>
+
+        <div>
+            <p>Interesses:</p>
+            <label for="programar">Programar</label>
+            <input type="checkbox" id="programar" name="usuarioInteresses" value="programar">
+
+            <label for="exercitar">Exercitar</label>
+            <input type="checkbox" id="exercitar" name="usuarioInteresses" value="exercitar">
+
+            <label for="redesSociais">Redes Sociais</label>
+            <input type="checkbox" id="redesSociais" name="usuarioInteresses" value="redesSociais">
+
+            <label for="lerLivros">Ler livros</label>
+            <input type="checkbox" id="lerLivros" name="usuarioInteresses" value="lerLivros">
+        </div>
+
+        <div>
+            <label for="pais">Escolha o seu país:</label>
+            <select id="pais" name="pais">
+                <option value="BR">Brasil</option>
+                <option value="US">Estados Unidos</option>
+                <option value="PT">Portugal</option>
+                <option value="CA">Canadá</option>
+                <option value="JP">Japão</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="mensagem">Deixe seu comentário!</label>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="20"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar formulário">
+        </div>
+
+    </form>
+</body>
+
+</html>
